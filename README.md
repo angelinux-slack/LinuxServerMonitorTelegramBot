@@ -11,17 +11,17 @@ Tested in
 - Chat in Telegram with @botFather and create a new bot
 - Get your token key
 - Rename demo.php to another name
-- In php file, line 7, change <token> for your token
+- In php file, line 7, change (token) for your token
 - Upload to your server with SSL support
 - Set webhook in: https://api.telegram.org/bot(token)/setwebhook?url=https://(yourDomain/yourFile.php)
 - Add following lines to /etc/sudoers, where username is your account name's domain:
---username  ALL = NOPASSWD: /usr/sbin/csf
---username  ALL = NOPASSWD: /scripts/cphulkdwhitelist
---username  ALL = NOPASSWD: /bin/grep
---username  ALL = NOPASSWD: /bin/ls
---username  ALL = NOPASSWD: /bin/ping
---username  ALL = NOPASSWD: /usr/bin/top
---username  ALL = NOPASSWD: /usr/bin/whois
+- - username  ALL = NOPASSWD: /usr/sbin/csf
+- - username  ALL = NOPASSWD: /scripts/cphulkdwhitelist
+- - username  ALL = NOPASSWD: /bin/grep
+- - username  ALL = NOPASSWD: /bin/ls
+- - username  ALL = NOPASSWD: /bin/ping
+- - username  ALL = NOPASSWD: /usr/bin/top
+- - username  ALL = NOPASSWD: /usr/bin/whois
 - Open conversation in Telegram with your bot searching @yourBotName
 - Enjoy
 
