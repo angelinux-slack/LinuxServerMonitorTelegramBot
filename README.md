@@ -13,7 +13,7 @@ Tested in
 
 /firewall - add IP to CSF and cpHulk whitelist (CSF, cPanel required)
 
-/free - show free space in MB
+/free - show free memory in MB
 
 /last - Show last 20 system login, ip date
 
