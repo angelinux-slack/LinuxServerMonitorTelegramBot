@@ -35,10 +35,15 @@ Tested in
 
 #For root commands you need edit /etc/sudoers:
 username  ALL = NOPASSWD: /usr/sbin/csf
+
 username  ALL = NOPASSWD: /scripts/cphulkdwhitelist
+
 username  ALL = NOPASSWD: /bin/grep
+
 username  ALL = NOPASSWD: /bin/ls
+
 username  ALL = NOPASSWD: /bin/ping
+
 username  ALL = NOPASSWD: /usr/bin/top
 username  ALL = NOPASSWD: /usr/bin/whois
 
