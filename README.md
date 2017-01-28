@@ -45,6 +45,7 @@ username  ALL = NOPASSWD: /bin/ls
 username  ALL = NOPASSWD: /bin/ping
 
 username  ALL = NOPASSWD: /usr/bin/top
+
 username  ALL = NOPASSWD: /usr/bin/whois
 
 where username is the name of user account where you upload php file
