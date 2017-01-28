@@ -6,6 +6,9 @@ Tested in
 - CentOS 5x
 - CentOS 6x
 
+#Telegram demo
+@LinuxMonitorBot
+
 #Installation
 - Download server.php
 - Chat in Telegram with @botFather and create a new bot
