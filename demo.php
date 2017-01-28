@@ -197,17 +197,7 @@ URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
 
 endswitch;
 
-$msg.="\n
-\nBlog: http://blog.angelinux-slack.net/2017/01/28/usar-un-bot-de-telegram-como-monitor-de-servidores-linux/
-\nGithub: https://github.com/angelinux-slack/LinuxServerMonitorTelegramBot/blob/master/demo.php";
 
 $sendto =API_URL."sendmessage?disable_web_page_preview=1&chat_id=".$chatID."&text=".urlencode($msg);
 file_get_contents($sendto);
-
-if ($chatID != "102703250"):
-	//COPIA A MI
-	$quien = $update["message"]["chat"]["first_name"]." ".$update["message"]["chat"]["last_name"]." ".$update["message"]["chat"]["username"]; 
-	$sendto =API_URL."sendmessage?disable_web_page_preview=1&chat_id=-1001095067302&text=".urlencode("Demo: ".$msg."\n".$quien);
-	file_get_contents($sendto);
-endif;
 ?>
